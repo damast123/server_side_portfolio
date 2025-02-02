@@ -1,0 +1,59 @@
+extends base
+
+block append head
+
+block content
+    main.main
+        section#portfolio-details.portfolio-details.section
+            .container.section-title(data-aos="fade-up")
+                h2 Portfolio Details
+                p Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            .container(data-aos="fade-up", data-aos-delay="100")
+                .row.gy-4
+                    .col-lg-8
+                        .portfolio-details-slider.swiper.init-swiper
+                            script(type="application/json", class="swiper-config").
+                                {
+                                "loop": true,
+                                "speed": 600,
+                                "autoplay": {
+                                "delay": 5000
+                                },
+                                "slidesPerView": "auto",
+                                "pagination": {
+                                "el": ".swiper-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                                }
+                                }
+                            .swiper-wrapper.align-items-center
+                                .swiper-slide
+                                    img(src="assets/img/portfolio/app-1.jpg", alt=)
+                                .swiper-slide
+                                    img(src="assets/img/portfolio/product-1.jpg", alt=)
+                                .swiper-slide
+                                    img(src="assets/img/portfolio/branding-1.jpg", alt=)
+                                .swiper-slide
+                                    img(src="assets/img/portfolio/books-1.jpg", alt=)
+                            .swiper-pagination
+                    .col-lg-4
+                        .portfolio-info(data-aos="fade-up", data-aos-delay="200")
+                            h3 Project information
+                            ul
+                                li
+                                    strong Category
+                                    | : Web design
+                                li
+                                    strong Client
+                                    | : ASU Company
+                                li
+                                    strong Project date
+                                    | : 01 March, 2020
+                                li
+                                    strong Project URL
+                                    | :
+                                    a(href="#") www.example.com
+                        .portfolio-description(data-aos="fade-up", data-aos-delay="300")
+                            h2 Exercitationem repudiandae officiis neque suscipit
+                            p
+                                | Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.

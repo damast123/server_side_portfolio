@@ -24,7 +24,45 @@ exports.getHomePage = catchAsync(async(req, res, next) => {
     // });
 
     // 4) Render template
-    res.status(200).render('home');
+    res.status(200).render('home',{
+        title: 'home'
+    });
+});
+
+exports.getAboutPage = catchAsync(async(req, res, next) => {
+    res.status(200).render('about',{
+        title: 'about'
+    });
+});
+
+exports.getContactPage = catchAsync(async(req, res, next) => {
+    res.status(200).render('contact',{
+        title: 'contact'
+    });
+});
+
+exports.getResumePage = catchAsync(async(req, res, next) => {
+    res.status(200).render('resume',{
+        title: 'resume'
+    });
+});
+
+exports.getServicePage = catchAsync(async(req, res, next) => {
+    res.status(200).render('services',{
+        title: 'services'
+    });
+});
+
+exports.getPortfolioPage = catchAsync(async(req, res, next) => {
+    res.status(200).render('portfolio',{
+        title: 'portfolio'
+    });
+});
+
+exports.getDetailPortfolioPage = catchAsync(async(req, res, next) => {
+    res.status(200).render('portfolio_details',{
+        title: 'Portfolio Details'
+    });
 });
 
 // exports.getLoginForm = catchAsync(async (req, res) => {

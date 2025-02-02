@@ -3,56 +3,44 @@ header#header.header.d-flex.align-items-center.light-background.sticky-top
         a.logo.d-flex.align-items-center.me-auto.me-xl-0(href="index.html")
             // Uncomment the line below if you also wish to use an image logo
             // <img src="/img/logo.png" alt="">
-            h1.sitename Kelly
+            h1.sitename Danny A
         nav#navmenu.navmenu
             ul
                 li
-                    a.active(href="index.html") Home
+                    if title == 'home'
+                        a.active(href="/") Home
+                    else
+                        a(href="/") Home
                 li
-                    a(href="about.html") About
+                    if title == 'about'
+                        a.active(href="/about") About
+                    else
+                        a(href="/about") About
                 li
-                    a(href="resume.html") Resume
+                    if title == 'resume'
+                        a.active(href="/resume") Resume
+                    else
+                        a(href="/resume") Resume
                 li
-                    a(href="services.html") Services
+                    if title == 'services'
+                        a.active(href="/services") Services
+                    else
+                        a(href="/services") Services
                 li
-                    a(href="portfolio.html") Portfolio
-                li.dropdown
-                    a(href="#")
-                        span Dropdown
-                        i.bi.bi-chevron-down.toggle-dropdown
-                    ul
-                        li
-                            a(href="#") Dropdown 1
-                        li.dropdown
-                            a(href="#")
-                                span Deep Dropdown
-                                i.bi.bi-chevron-down.toggle-dropdown
-                            ul
-                                li
-                                    a(href="#") Deep Dropdown 1
-                                li
-                                    a(href="#") Deep Dropdown 2
-                                li
-                                    a(href="#") Deep Dropdown 3
-                                li
-                                    a(href="#") Deep Dropdown 4
-                                li
-                                    a(href="#") Deep Dropdown 5
-                        li
-                            a(href="#") Dropdown 2
-                        li
-                            a(href="#") Dropdown 3
-                        li
-                            a(href="#") Dropdown 4
+                    if title == 'portfolio'
+                        a.active(href="/portfolio") Portfolio
+                    else
+                        a(href="/portfolio") Portfolio 
                 li
-                    a(href="contact.html") Contact
+                    if title == 'contact'
+                        a.active(href="/contact") Contact
+                    else
+                        a(href="/contact") Contact 
             i.mobile-nav-toggle.d-xl-none.bi.bi-list
         .header-social-links
-            a.twitter(href="#")
-                i.bi.bi-twitter-x
-            a.facebook(href="#")
+            a.facebook(href="https://www.facebook.com/dannyalfandi06", target="_blank")
                 i.bi.bi-facebook
-            a.instagram(href="#")
+            a.instagram(href="https://www.instagram.com/dannyalfandi06", target="_blank")
                 i.bi.bi-instagram
-            a.linkedin(href="#")
+            a.linkedin(href="https://www.linkedin.com/in/danny-alfandi-496374196", target="_blank")
                 i.bi.bi-linkedin

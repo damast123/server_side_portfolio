@@ -1,0 +1,99 @@
+extends base
+
+block append head
+
+block content
+    main.main
+        section#portfolio.portfolio.section
+            .container.section-title(data-aos="fade-up")
+                h2 Portfolio
+                p Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            .container
+                .isotope-layout(data-default-filter="*", data-layout="masonry", data-sort="original-order")
+                    ul.portfolio-filters.isotope-filters(data-aos="fade-up", data-aos-delay="100")
+                        li.filter-active(data-filter="*") All
+                        li(data-filter=".filter-app") App
+                        li(data-filter=".filter-product") Card
+                        li(data-filter=".filter-branding") Web
+                    .row.gy-4.isotope-container(data-aos="fade-up", data-aos-delay="200")
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg", alt="")
+                            .portfolio-info
+                                h4 App 1
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg", title="App 1", data-gallery="portfolio-gallery-app")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg", alt="")
+                            .portfolio-info
+                                h4 Product 1
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg", title="Product 1", data-gallery="portfolio-gallery-product")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-branding
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg", alt="")
+                            .portfolio-info
+                                h4 Branding 1
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg", title="Branding 1", data-gallery="portfolio-gallery-branding")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg", alt="")
+                            .portfolio-info
+                                h4 App 2
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg", title="App 2", data-gallery="portfolio-gallery-app")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg", alt="")
+                            .portfolio-info
+                                h4 Product 2
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg", title="Product 2", data-gallery="portfolio-gallery-product")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-branding
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg", alt="")
+                            .portfolio-info
+                                h4 Branding 2
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg", title="Branding 2", data-gallery="portfolio-gallery-branding")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg", alt="")
+                            .portfolio-info
+                                h4 App 3
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg", title="App 3", data-gallery="portfolio-gallery-app")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg", alt="")
+                            .portfolio-info
+                                h4 Product 3
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg", title="Product 3", data-gallery="portfolio-gallery-product")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
+                        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-branding
+                            img.img-fluid(src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg", alt="")
+                            .portfolio-info
+                                h4 Branding 3
+                                p Lorem ipsum, dolor sit
+                                a.glightbox.preview-link(href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg", title="Branding 2", data-gallery="portfolio-gallery-branding")
+                                    i.bi.bi-zoom-in
+                                a.details-link(href="portfolio-details.html", title="More Details")
+                                    i.bi.bi-link-45deg
