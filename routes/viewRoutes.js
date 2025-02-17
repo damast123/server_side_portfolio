@@ -1,5 +1,5 @@
 const express = require('express');
-const viewController = require('./../controllers/viewController');
+const viewController = require('../Presentations/controllers/viewController');
 const router = express.Router();
 
 
