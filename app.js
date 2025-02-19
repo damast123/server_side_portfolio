@@ -9,8 +9,7 @@ var cors = require('cors');
 const { xss } = require("express-xss-sanitizer");
 const hpp = require('hpp');
 const AppError = require('./utils/appError');
-// const globalErrorHandler = require('./controllers/errorController');
-const viewRouter = require('./routes/viewRoutes');
+const viewRouter = require('./Presentations/routes/viewRoutes');
 
 const app = express();
 
