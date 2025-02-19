@@ -27,14 +27,9 @@ block content
                                 }
                                 }
                             .swiper-wrapper.align-items-center
-                                .swiper-slide
-                                    img(src="assets/img/portfolio/app-1.jpg", alt=)
-                                .swiper-slide
-                                    img(src="assets/img/portfolio/product-1.jpg", alt=)
-                                .swiper-slide
-                                    img(src="assets/img/portfolio/branding-1.jpg", alt=)
-                                .swiper-slide
-                                    img(src="assets/img/portfolio/books-1.jpg", alt=)
+                                each image in detailPorto.images
+                                    .swiper-slide
+                                        img(src=image)
                             .swiper-pagination
                     .col-lg-4
                         .portfolio-info(data-aos="fade-up", data-aos-delay="200")
@@ -42,10 +37,10 @@ block content
                             ul
                                 li
                                     strong Category
-                                    | : Web design
+                                    | : #{detailPorto.category_project}
                                 li
                                     strong Client
-                                    | : ASU Company
+                                    | : #{detailPorto.project_from}
                                 li
                                     strong Project date
                                     | : 01 March, 2020

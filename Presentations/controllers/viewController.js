@@ -1,5 +1,10 @@
+const path = require('path');
 // const Tour = require('../models/tourModel');
 const catchAsync = require('../../utils/catchAsync');
+const jsonfile = require('jsonfile');
+
+const file = path.join(__dirname, '../../Config/detailPorto.json');
+
 // const AppError = require('../utils/appError');
 // const User = require('../models/userModel');
 // const Bookings = require('../models/bookingModel');
@@ -60,8 +65,12 @@ exports.getPortfolioPage = catchAsync(async(req, res, next) => {
 });
 
 exports.getDetailPortfolioPage = catchAsync(async(req, res, next) => {
+    const jsonParse = jsonfile.readFileSync(file);
+    let detailPorto = jsonParse.find(p=>p.project_name == req.params.name)
+    console.log('data detailPorto: ',detailPorto);
     res.status(200).render('portfolio_details',{
-        title: 'Portfolio Details'
+        title: 'Portfolio Details',
+        detailPorto
     });
 });
 
