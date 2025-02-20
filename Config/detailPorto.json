@@ -1,74 +1,146 @@
 [
     {
-      "id": 1,
       "project_name": "BBP",
       "category_project": "Mobile Application",
       "project_from": "Friends",
       "project_date": "July 2019",
       "description": "So this project is for tracking the courier from internal and scan the internal product for delivery. In here he using kotlin for develop this application",
-      "images": ["/img/portfolio/BBP/home_tracking.jpg","/img/portfolio/BBP/access_allow.jpg","/img/portfolio/BBP/scan_barcode.jpg","/img/portfolio/BBP/tracking.jpg"]
+      "images": ["BBP/home_tracking.jpg","BBP/access_allow.jpg","BBP/scan_barcode.jpg","BBP/tracking.jpg"]
     },
     {
-      "id": 2,
       "project_name": "Ayugold",
       "category_project": "Web Application",
       "project_from": "Work (ICUBE by Sirclo)",
       "project_date": "August 2021",
       "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
-      "images": ["/img/portfolio/Ayugold/TY_Page.png","/img/portfolio/Ayugold/setelah_klik_forgot_pass.png"]
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
     },
     {
-      "id": 2,
-      "project_name": "Ayugold",
+      "project_name": "Sinarmas App",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "Feb 2022",
+      "description": "So this project is for e commerce in sinarmasapp. In this project, He contributed by exporting files in .xml format, developing GraphQL queries to retrieve data such as production dates, product reviews and ratings, form label data, and specification form data. The project was built using the Magento 2 framework.",
+      "images": ["Sinarmasapp/1.png","Sinarmasapp/2.png","Sinarmasapp/2.png","Sinarmasapp/3.png","Sinarmasapp/4.png","Sinarmasapp/5.png","Sinarmasapp/6.png","Sinarmasapp/7.png","Sinarmasapp/8.png","Sinarmasapp/9.png"]
+    },
+    {
+      "project_name": "Sinarmas App",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "Feb 2022",
+      "description": "So this project is for e commerce in sinarmasapp. In this project, He contributed by exporting files in .xml format, developing GraphQL queries to retrieve data such as production dates, product reviews and ratings, form label data, and specification form data. The project was built using the Magento 2 framework.",
+      "images": ["Sinarmasapp/1.png","Sinarmasapp/2.png","Sinarmasapp/2.png","Sinarmasapp/3.png","Sinarmasapp/4.png","Sinarmasapp/5.png","Sinarmasapp/6.png","Sinarmasapp/7.png","Sinarmasapp/8.png","Sinarmasapp/9.png"]
+    },
+    {
+      "project_name": "Sinarmas App",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "Feb 2022",
+      "description": "So this project is for e commerce in sinarmasapp. In this project, He contributed by exporting files in .xml format, developing GraphQL queries to retrieve data such as production dates, product reviews and ratings, form label data, and specification form data. The project was built using the Magento 2 framework.",
+      "images": ["Sinarmasapp/1.png","Sinarmasapp/2.png","Sinarmasapp/2.png","Sinarmasapp/3.png","Sinarmasapp/4.png","Sinarmasapp/5.png","Sinarmasapp/6.png","Sinarmasapp/7.png","Sinarmasapp/8.png","Sinarmasapp/9.png"]
+    },
+    {
+      "project_name": "Sinarmas App",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "Feb 2022",
+      "description": "So this project is for e commerce in sinarmasapp. In this project, He contributed by exporting files in .xml format, developing GraphQL queries to retrieve data such as production dates, product reviews and ratings, form label data, and specification form data. The project was built using the Magento 2 framework.",
+      "images": ["Sinarmasapp/1.png","Sinarmasapp/2.png","Sinarmasapp/2.png","Sinarmasapp/3.png","Sinarmasapp/4.png","Sinarmasapp/5.png","Sinarmasapp/6.png","Sinarmasapp/7.png","Sinarmasapp/8.png","Sinarmasapp/9.png"]
+    },
+    {
+      "project_name": "Alwayshappi",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "January 2023",
+      "description": "So this project is for e commerce in alwayshappi. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
+    },
+    {
+      "project_name": "Samsonite",
       "category_project": "Web Application",
       "project_from": "Work (ICUBE by Sirclo)",
       "project_date": "August 2021",
       "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
-      "images": ["/img/portfolio/Ayugold/TY_Page.png","/img/portfolio/Ayugold/setelah_klik_forgot_pass.png"]
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
     },
     {
-      "id": 2,
-      "project_name": "Ayugold",
+      "project_name": "Ms Glow",
       "category_project": "Web Application",
       "project_from": "Work (ICUBE by Sirclo)",
       "project_date": "August 2021",
       "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
-      "images": ["/img/portfolio/Ayugold/TY_Page.png","/img/portfolio/Ayugold/setelah_klik_forgot_pass.png"]
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
     },
     {
-      "id": 2,
-      "project_name": "Ayugold",
+      "project_name": "Ms Glow",
       "category_project": "Web Application",
       "project_from": "Work (ICUBE by Sirclo)",
       "project_date": "August 2021",
       "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
-      "images": ["/img/portfolio/Ayugold/TY_Page.png","/img/portfolio/Ayugold/setelah_klik_forgot_pass.png"]
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
     },
     {
-      "id": 2,
-      "project_name": "Ayugold",
+      "project_name": "Ms Glow",
       "category_project": "Web Application",
       "project_from": "Work (ICUBE by Sirclo)",
       "project_date": "August 2021",
       "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
-      "images": ["/img/portfolio/Ayugold/TY_Page.png","/img/portfolio/Ayugold/setelah_klik_forgot_pass.png"]
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
     },
     {
-      "id": 2,
-      "project_name": "Ayugold",
+      "project_name": "Ms Glow",
       "category_project": "Web Application",
       "project_from": "Work (ICUBE by Sirclo)",
       "project_date": "August 2021",
       "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
-      "images": ["/img/portfolio/Ayugold/TY_Page.png","/img/portfolio/Ayugold/setelah_klik_forgot_pass.png"]
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
     },
     {
-      "id": 2,
-      "project_name": "Ayugold",
+      "project_name": "Ms Glow",
       "category_project": "Web Application",
       "project_from": "Work (ICUBE by Sirclo)",
       "project_date": "August 2021",
       "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
-      "images": ["/img/portfolio/Ayugold/TY_Page.png","/img/portfolio/Ayugold/setelah_klik_forgot_pass.png"]
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
+    },
+    {
+      "project_name": "Ms Glow",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "August 2021",
+      "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
+    },
+    {
+      "project_name": "Ms Glow",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "August 2021",
+      "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
+    },
+    {
+      "project_name": "Ms Glow",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "August 2021",
+      "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
+    },
+    {
+      "project_name": "Ms Glow",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "August 2021",
+      "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
+    },
+    {
+      "project_name": "Natours",
+      "category_project": "Web Application",
+      "project_from": "Work (ICUBE by Sirclo)",
+      "project_date": "August 2021",
+      "description": "So this project is for e commerce in ayugold. In this project, he assisted to create a custom after-quote feature, BPMN flow, and check errors in the forgot password process. This project developed using the Magento 2 framework.",
+      "images": ["Ayugold/TY_Page.png","Ayugold/setelah_klik_forgot_pass.png"]
     }
 ]
