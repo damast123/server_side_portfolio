@@ -1,9 +1,9 @@
 const express = require('express');
-const viewController = require('./../controllers/viewController');
+const viewController = require('./../Controllers/viewController');
 const router = express.Router();
 
 
-router.get('/', viewController.getHomePage);
+router.get('', viewController.getHomePage);
 router.get('/about', viewController.getAboutPage);
 router.get('/resume', viewController.getResumePage);
 router.get('/services', viewController.getServicePage);

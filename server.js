@@ -17,11 +17,10 @@ const app = require('./app');
 // mongoose.connect(DB).then(console.log('connecting to database'));
 
 const port = process.env.PORT || 3300;
-const hostname = '127.0.0.1';
 
 //4) start server
 const server = app.listen(port,()=>{
-    
+    console.log('connecting to port',port);    
 });
 
 process.on('unhandledRejection', err => {

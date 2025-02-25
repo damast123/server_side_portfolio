@@ -9,7 +9,7 @@ var cors = require('cors');
 const { xss } = require("express-xss-sanitizer");
 const hpp = require('hpp');
 const AppError = require('./utils/appError');
-const viewRouter = require('./Presentations/routes/viewRoutes');
+const indexRouter = require('./Presentations/Routes/index');
 
 const app = express();
 
@@ -90,9 +90,7 @@ app.use(hpp({
 
 app.use(compression());
 
-// app.use('/api/v1/guest', guestRouter);
-// app.use('/api/v1/location', locationRouter);
-app.use('/',viewRouter)
+app.use('', indexRouter);
 
 app.all('*', (req, res, next) => {
     next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
